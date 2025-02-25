@@ -1,17 +1,17 @@
 import os
 
 def JtoI(file_path):
-    if not os.path.exists(file_path):  # Check if file exists
-        print(f"Error: {file_path} not found!")
-        return
+  if not os.path.exists(file_path):  # Check if file exists
+    print(f"Error: {file_path} not found!")
+    return
 
-    with open(file_path, 'r') as file:
-        content = file.read()  # Read the entire content
+  with open(file_path, 'r') as file:
+    content = file.read()  # Read the entire content
 
-    corrected_content = content.replace('J', 'I')  # Replace 'J' with 'I'
+  corrected_content = content.replace('J', 'I')  # Replace 'J' with 'I'
 
-    print("Corrected Content:\n")
-    print(corrected_content)  # Display the modified content
+  print("Corrected Content:\n")
+  print(corrected_content)  # Display the modified content
 
 
 # Get the script's directory dynamically

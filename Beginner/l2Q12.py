@@ -11,7 +11,7 @@ while True:
     else:
         print("Passwords does not match. Please try again.\n")
 
-# Login process with 3 attempts
+# Login with 3 attempts
 attempts = 3
 
 while attempts > 0:
@@ -26,4 +26,4 @@ while attempts > 0:
         if attempts > 0:
             print(f"Incorrect username or password. You have {attempts} attempts left.\n")
         else:
-            print("Too many failed attempts. Access denied.")
+            print("Access denied.")
